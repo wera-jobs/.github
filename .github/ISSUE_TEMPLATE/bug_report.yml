@@ -1,0 +1,44 @@
+name: Bug report
+description: Something in Wera does not work as it should
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: Please leave out resumes, passwords and other personal details. Issues are public. Report security problems privately instead.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: And what you expected to happen.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Go to ...
+        2. Click ...
+    validations:
+      required: true
+  - type: dropdown
+    id: where
+    attributes:
+      label: Where
+      options:
+        - Website or dashboard
+        - Chrome extension
+        - Admin console
+        - API or job data
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Browser and device
+      placeholder: Chrome 130 on Windows, Safari on iPhone
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: Shown in the sidebar footer, or on the extensions page for the Chrome extension.
