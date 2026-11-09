@@ -1,6 +1,6 @@
-<p align="center">
+<!-- <p align="center">
   <img src="https://raw.githubusercontent.com/wera-jobs/.github/main/profile/wera-logo.svg" alt="Wera logo" width="96">
-</p>
+</p> -->
 
 <h1 align="center">Wera</h1>
 
